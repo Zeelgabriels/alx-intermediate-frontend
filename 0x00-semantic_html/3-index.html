@@ -84,13 +84,30 @@
                 </button>
             </div>
 
-            <div
+            <div>
                 aria-live="polite"
                 role="alert">
                 <!-- This area will announce feedback messages to screen readers -->
             </div>
          </form>   
         </section>
+
+<div class="grid grid-cols-3 gap-4">
+  <header class="col-span-3 flex justify-between items-center bg-gray-200 p-4">
+    <div>Logo</div>
+    <nav class="flex space-x-4">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <aside class="bg-gray-300 p-4">Sidebar</aside>
+  <main class="col-span-2 bg-gray-400 p-4 flex flex-col space-y-4">
+    <h1>Main Content</h1>
+    <p>Some text here...</p>
+  </main>
+  <footer class="col-span-3 bg-gray-500 p-4 text-center">Footer</footer>
+</div>
     </main>
     
     <!-- Footer: Concluding information about the page -->
