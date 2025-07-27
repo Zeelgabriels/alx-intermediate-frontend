@@ -1,0 +1,17 @@
+// 3-mixin_margins.scss
+
+// Define a mixin that accepts a margin value
+@mixin set-margins($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Use mixin for body
+body {
+  @include set-margins(10px);
+}
+
+// Use mixin for div
+div {
+  @include set-margins(15px);
+}
